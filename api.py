@@ -1,7 +1,7 @@
 from openai import OpenAI
 
-base_url = "http://35.220.164.252:3888/v1"
-key = "sk-NWRjPxVhyMjVu5bIxX7KEnKTEEmu8NTeHjAez5zyn8lgcSl8"
+base_url = "your_base_url"
+key = "your_key"
 
 client = OpenAI(
     api_key=key, 
